@@ -1,0 +1,201 @@
+{% extends 'base.html' %}
+{% block title %}Home{% endblock title %}
+
+{% block body %}
+
+
+
+<div class="container-fluid my-4">
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://images.unsplash.com/photo-1621250756211-91b882aec153?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=700&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjIxNDM4MTA5&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Welcome Le café vintage</h5>
+        <p>Choose products from our wide range of Tea, Coffee and Pastries</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.unsplash.com/photo-1621070857957-36b441a67455?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=700&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjIxNTAzOTg4&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Since 1975</h5>
+        <p>We're here since 1975. Our products are 100% natural</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=700&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjIxNDQ2MzYz&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Coffee from Ethiopia</h5>
+        <p"text-center">Our Coffee beans are imported from Ethiopia.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+
+
+</div>
+</div>
+<div class="container my-4">
+<h1 class ="my-3 text-center"><i>Our Bestselling Products</i></h1>
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="https://images.unsplash.com/photo-1619540158579-1b4fd3529849?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=710&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjIxNDQ2NTU3&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1025" class="d-block w-100" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center"><i><b>Neopolitan Brioche</b></i></p>
+              <p>Made by using imported ingredients from Japan.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://youtu.be/rTgj1HxmUbg" class="btn btn-sm btn-outline-secondary" role="button" aria-pressed="true">Buy now</a>
+                <a href="https://youtu.be/rTgj1HxmUbg" class="btn btn-sm btn-outline-secondary" role="button" aria-pressed="true">Add to Cart</a>
+                
+                </div>
+                <small class="text-muted"> ₹ 1000</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col">
+          <div class="card shadow-sm">
+          <img src="https://images.unsplash.com/photo-1507306788627-e0850edeaa8b?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=700&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjIxNDQ3Nzcx&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1100" class="d-block w-100" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center"><i><b>Caramel-Pecan Apple Pie</b></i></p>
+              <p>Tastes like grandma's apple pie. Made by using 100% organic brown sugar.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://youtu.be/rTgj1HxmUbg" class="btn btn-sm btn-outline-secondary" role="button" aria-pressed="true">Buy now</a>
+                <a href="https://youtu.be/rTgj1HxmUbg" class="btn btn-sm btn-outline-secondary" role="button" aria-pressed="true">Add to Cart</a>
+                
+                </div>
+                <small class="text-muted"> ₹1050</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+           <img src="https://cdn.pixabay.com/photo/2015/10/12/14/54/coffee-983955_1280.jpg" class="d-block w-100" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center"><b><i>Milk Coffee</i></b><p>
+              <p>Made by using Natural cow milk and Ethiopian Coffee Beans</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://youtu.be/rTgj1HxmUbg" class="btn btn-sm btn-outline-secondary" role="button" aria-pressed="true">Buy now</a>
+                <a href="https://youtu.be/rTgj1HxmUbg" class="btn btn-sm btn-outline-secondary" role="button" aria-pressed="true">Add to Cart</a>
+                
+                </div>
+                <small class="text-muted"> ₹ 200</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+       <div class="col">
+          <div class="card shadow-sm">
+           <img src="https://cdn.pixabay.com/photo/2019/11/23/20/04/coffee-4648041_1280.jpg" class="d-block w-100" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center"><b><i>Iced Coffee</i></b></p>
+              <p>Gives you instant refreshment. Made by using top quality products.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://youtu.be/rTgj1HxmUbg" class="btn btn-sm btn-outline-secondary" role="button" aria-pressed="true">Buy now</a>
+                <a href="https://youtu.be/rTgj1HxmUbg" class="btn btn-sm btn-outline-secondary" role="button" aria-pressed="true">Add to Cart</a>
+                
+                </div>
+                <small class="text-muted"> ₹ 450</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+          <img src="https://cdn.pixabay.com/photo/2016/02/11/20/42/mohr-heads-1194489_1280.jpg" class="d-block w-100" alt="mohr heads">
+        <div class="card-body">
+              <p class="card-text text-center"><b><i>Mohr Heads</i></b></p>
+              <p>Made by using chocolates imported from Belgium and Australia.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://youtu.be/rTgj1HxmUbg" class="btn btn-sm btn-outline-secondary" role="button" aria-pressed="true">Buy now</a>
+                <a href="https://youtu.be/rTgj1HxmUbg" class="btn btn-sm btn-outline-secondary" role="button" aria-pressed="true">Add to Cart</a>
+                
+                </div>
+                <small class="text-muted"> ₹ 200</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+         <div class="col">
+          <div class="card shadow-sm">
+           <img src="https://cdn.pixabay.com/photo/2017/01/11/11/33/cake-1971552_1280.jpg" class="d-block w-100" alt="cheese chocolate pastry">
+            <div class="card-body">
+              <p class="card-text text-center"><b><i>Cheese Chocolate Pastry</i></b></p>
+              <p>Made by using the famous Asiago Cheese and Swiss chocolates.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://youtu.be/rTgj1HxmUbg" class="btn btn-sm btn-outline-secondary" role="button" aria-pressed="true">Buy now</a>
+                <a href="https://youtu.be/rTgj1HxmUbg" class="btn btn-sm btn-outline-secondary" role="button" aria-pressed="true">Add to Cart</a>
+                
+                </div>
+                <small class="text-muted"> ₹ 1000</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+ <div class="col">
+          <div class="card shadow-sm">
+           <img src="https://cdn.pixabay.com/photo/2016/10/31/18/14/dessert-1786311_960_720.jpg" class="d-block w-100" alt="coffee and berries ice cream">
+            <div class="card-body">
+              <p class="card-text text-center"><b><i>Coffee 'n' Berries Ice Cream</i></b></p>
+              <p>Made by using organic Raspberries and Cranberries imported from the US.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://youtu.be/rTgj1HxmUbg" class="btn btn-sm btn-outline-secondary" role="button" aria-pressed="true">Buy now</a>
+                <a href="https://youtu.be/rTgj1HxmUbg" class="btn btn-sm btn-outline-secondary" role="button" aria-pressed="true">Add to Cart</a>
+                
+                </div>
+                <small class="text-muted"> ₹ 500</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+           <img src="https://cdn.pixabay.com/photo/2020/09/25/15/19/waffles-5601672_1280.jpg" class="d-block w-100" alt="waffles jam berries">
+            <div class="card-body">
+              <p class="card-text text-center"><b><i>Waffles Jam Berries</i></b></p>
+              <p>This is going to be your next favourite food. Made by using jams imported from Denmark.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://youtu.be/rTgj1HxmUbg" class="btn btn-sm btn-outline-secondary" role="button" aria-pressed="true">Buy now</a>
+                <a href="https://youtu.be/rTgj1HxmUbg" class="btn btn-sm btn-outline-secondary" role="button" aria-pressed="true">Add to Cart</a>
+                
+                </div>
+                <small class="text-muted"> ₹ 500</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+{% endblock body %}
