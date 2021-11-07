@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-s9_^n$+=wg-3^j+m4=$(n1iecz=1npme3ocb)61r$ei*uss$%%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'wallstreetspy.herokuapp.com', 'wallstreetspy.tech', 'wallstreetspy.co']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'wallstreetspy.herokuapp.com', 'www.wallstreetspy.tech', 'www.wallstreetspy.co']
 
 
 # Application definition
