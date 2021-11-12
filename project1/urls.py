@@ -22,5 +22,5 @@ admin.site.index_title = "Welcome to Le café vintage"
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('Home.urls'))
+    path('', include('Home.urls')),
 ]
