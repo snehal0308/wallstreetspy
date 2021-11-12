@@ -1,19 +1,4 @@
-# WallStreetSpy
 
-A e-commerce website to buy pastry
-
-**BUT**
-
-Hidden with memes and rick rolls
-
-
-Technologies: Django, Heroku CLI
-
-UX/UI Design with Figma
-
-Registered Domain with GoDaddy Registry
-
-Hosted with Heroku
 
 
 # Wallstreetspy 
@@ -32,4 +17,4 @@ Hosted with Heroku
 ![home](https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_thumbnail_photos/001/728/521/datas/medium.png)
 
 
-*CogniFit by Snehal, Bryant and Areen *
+* CogniFit by Snehal, Bryant and Areen *
