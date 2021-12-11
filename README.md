@@ -17,4 +17,4 @@ Hosted with Heroku
 ![home](https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_thumbnail_photos/001/728/521/datas/medium.png)
 
 
-* CogniFit by Snehal, Bryant and Areen *
+* Wallstreetspy by Snehal, Bryant and Areen *
